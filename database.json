@@ -1,9 +1,15 @@
 {
     "users": [{
-        "email": "devin@garcia.com",
-        "name": "Devin Garcia",
-        "id": 1
-    }],
+            "email": "global@presets.com",
+            "name": "Global Presets",
+            "id": 0
+        },
+        {
+            "email": "devin@garcia.com",
+            "name": "Devin Garcia",
+            "id": 1
+        }
+    ],
     "presets": [{
             "id": 1,
             "name": "Rock",
