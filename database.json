@@ -9,21 +9,6 @@
       "email": "devin@garcia.com",
       "name": "Devin Garcia",
       "id": 1
-    },
-    {
-      "email": "steve@smith.com",
-      "name": "Steve Smith",
-      "id": 2
-    },
-    {
-      "email": "neal@stephenson.com",
-      "name": "Neal Stephenson",
-      "id": 3
-    },
-    {
-      "email": "gary@winters.com",
-      "name": "Gary winters",
-      "id": 4
     }
   ],
   "presets": [
@@ -35,8 +20,8 @@
     },
     {
       "id": 2,
-      "name": "Bossa Nova",
-      "userEditable": false,
+      "name": "Shuffle",
+      "userEditable": true,
       "userId": 0
     },
     {
@@ -50,23 +35,34 @@
       "userEditable": true,
       "userId": 0,
       "id": 4
-    },
-    {
-      "id": 6,
-      "name": "3/4 Groove",
-      "userEditable": true,
-      "userId": 2
-    },
-    {
-      "id": 7,
-      "name": "Welcome to my app",
-      "userEditable": true,
-      "userId": 1
     }
   ],
   "sequences": [
     {
       "id": 1,
+      "inst": "rd",
+      "pattern": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "presetId": 1
+    },
+    {
+      "id": 2,
       "inst": "hh",
       "pattern": [
         1,
@@ -89,7 +85,7 @@
       "presetId": 1
     },
     {
-      "id": 2,
+      "id": 3,
       "inst": "sd",
       "pattern": [
         0,
@@ -105,29 +101,6 @@
         0,
         0,
         1,
-        0,
-        0,
-        0
-      ],
-      "presetId": 1
-    },
-    {
-      "id": 3,
-      "inst": "bd",
-      "pattern": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0
@@ -136,149 +109,30 @@
     },
     {
       "id": 4,
-      "inst": "hh",
-      "pattern": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "presetId": 2
-    },
-    {
-      "id": 5,
-      "inst": "sd",
-      "pattern": [
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        0
-      ],
-      "presetId": 2
-    },
-    {
-      "id": 6,
       "inst": "bd",
       "pattern": [
         1,
         0,
         0,
-        1,
-        1,
         0,
         0,
-        1,
-        1,
         0,
-        0,
-        1,
-        1,
-        0,
-        0,
-        1
-      ],
-      "presetId": 2
-    },
-    {
-      "id": 7,
-      "inst": "hh",
-      "pattern": [
-        1,
-        0,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1
-      ],
-      "presetId": 3
-    },
-    {
-      "id": 8,
-      "inst": "sd",
-      "pattern": [
-        1,
-        0,
-        1,
         0,
         0,
         1,
         0,
         1,
         0,
-        1,
         0,
         0,
-        1,
         0,
-        1,
         0
       ],
-      "presetId": 3
+      "presetId": 1
     },
     {
-      "id": 9,
-      "inst": "bd",
+      "inst": "rd",
       "pattern": [
-        1,
-        0,
-        0,
-        1,
-        1,
-        0,
-        0,
-        1,
-        1,
-        0,
-        0,
-        1,
-        1,
-        0,
-        0,
-        1
-      ],
-      "presetId": 3
-    },
-    {
-      "inst": "hh",
-      "pattern": [
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0,
@@ -292,7 +146,26 @@
         0,
         0
       ],
-      "presetId": 4,
+      "presetId": 2,
+      "id": 9
+    },
+    {
+      "inst": "hh",
+      "pattern": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "presetId": 2,
       "id": 10
     },
     {
@@ -304,23 +177,130 @@
         0,
         0,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        1,
         0,
         0,
         0,
         0,
         0
       ],
-      "presetId": 4,
+      "presetId": 2,
       "id": 11
     },
     {
       "inst": "bd",
       "pattern": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "presetId": 2,
+      "id": 12
+    },
+    {
+      "id": 5,
+      "inst": "rd",
+      "pattern": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "presetId": 3
+    },
+    {
+      "id": 6,
+      "inst": "hh",
+      "pattern": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "presetId": 3
+    },
+    {
+      "id": 7,
+      "inst": "sd",
+      "pattern": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "presetId": 3
+    },
+    {
+      "id": 8,
+      "inst": "bd",
+      "pattern": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "presetId": 3
+    },
+    {
+      "inst": "rd",
+      "pattern": [
         0,
         0,
         0,
@@ -339,29 +319,32 @@
         0
       ],
       "presetId": 4,
-      "id": 12
+      "id": 13
     },
     {
-      "id": 16,
       "inst": "hh",
       "pattern": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
-      "presetId": 6
+      "presetId": 4,
+      "id": 14
     },
     {
-      "id": 17,
       "inst": "sd",
       "pattern": [
         0,
@@ -370,66 +353,6 @@
         0,
         0,
         0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1
-      ],
-      "presetId": 6
-    },
-    {
-      "id": 18,
-      "inst": "bd",
-      "pattern": [
-        1,
-        0,
-        1,
-        1,
-        0,
-        1,
-        0,
-        0,
-        1,
-        1,
-        0,
-        0
-      ],
-      "presetId": 6
-    },
-    {
-      "id": 19,
-      "inst": "hh",
-      "pattern": [
-        1,
-        0,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        0,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1
-      ],
-      "presetId": 7
-    },
-    {
-      "id": 20,
-      "inst": "sd",
-      "pattern": [
-        0,
-        0,
-        0,
-        0,
-        1,
         0,
         0,
         0,
@@ -437,35 +360,35 @@
         0,
         0,
         0,
-        1,
         0,
         0,
         0
       ],
-      "presetId": 7
+      "presetId": 4,
+      "id": 15
     },
     {
-      "id": 21,
       "inst": "bd",
       "pattern": [
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        1,
         0,
         0,
         0,
         0,
-        1
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
-      "presetId": 7
+      "presetId": 4,
+      "id": 16
     }
   ]
 }
